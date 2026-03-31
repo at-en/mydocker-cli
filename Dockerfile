@@ -1,5 +1,5 @@
-FROM openlist/openlist:latest
+FROM ghcr.io/openlistteam/openlist-git:latest-aio
 
-EXPOSE 5000
+EXPOSE 3000
 
-CMD ["./openlist"]
+CMD ["/openlist"]
